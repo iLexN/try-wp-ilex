@@ -1,0 +1,16 @@
+{
+    "name": "ilex.ng/wp-ilex",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "IlexNg\\WpIlex\\": "htdocs/wp-content/plugins/IlexWp/src"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.2",
+        "symfony/console": "^6.2"
+    },
+    "require": {
+        "monolog/monolog": "^3.2"
+    }
+}
